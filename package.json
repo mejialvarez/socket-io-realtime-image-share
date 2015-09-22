@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Realtime image sharing app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(git://github.com/mejialvarez/realtime-image-share.git)"
+  },
+  "keywords": [
+    "image",
+    "share",
+    "realtime"
+  ],
+  "author": "Hamilton Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.13.3",
+    "socket.io": "~1.3.6"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
